@@ -7,8 +7,8 @@ const Home = () => {
       <PageHeader
         title={
           <>
-            Home <br /> Dino <i className="bi bi-postcard-heart"></i> Business
-            Cards
+            Home 222 <br /> Dino <i className="bi bi-postcard-heart"></i>{" "}
+            Business Cards
           </>
         }
         description="Ready to look professional and impressive? Pair your logo with striking business card designs you can print and share with anyone."
