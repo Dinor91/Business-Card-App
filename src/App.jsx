@@ -30,7 +30,7 @@ function App() {
 
       <main className="flex-fill container">
         <Routes>
-          <Route path="home" element={<Home />} />
+          <Route path="Business-Card-App/" element={<Home />} />
           <Route path="about" element={<About />} />
           <Route
             path="my-cards"
@@ -65,8 +65,8 @@ function App() {
             }
           />
           <Route path="sign-up" element={<SignUp redirect="/sign-in" />} />
-          <Route path="sign-in" element={<SignIn redirect="/home" />} />
-          <Route path="log-out" element={<LogOut redirect="/home" />} />
+          <Route path="sign-in" element={<SignIn redirect="/" />} />
+          <Route path="log-out" element={<LogOut redirect="/" />} />
           <Route
             path="sign-up-biz"
             element={<SignUpBiz redirect="/create-card" />}
