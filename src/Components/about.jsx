@@ -11,7 +11,7 @@ const About = () => {
             Cards
           </>
         }
-        description=" Create a professional business card in minutes with our free business card maker. BrandCrowd's business card maker is easy to use and allows you full customization to get the design you want"
+        description=" Create a professional business card in minutes with our free business card maker. Dino's business card maker is easy to use and allows you full customization to get the design you want"
       />
     </>
   );
