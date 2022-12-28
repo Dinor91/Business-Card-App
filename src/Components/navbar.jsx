@@ -7,7 +7,7 @@ const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-sm navbar-light bg-light shadow-sm">
       <div className="container-fluid">
-        <Link to="/Business-Card-App" className="navbar-brand">
+        <Link to="/" className="navbar-brand">
           🦖 Business Cards <i className="bi bi-postcard-heart"></i>
         </Link>
 
