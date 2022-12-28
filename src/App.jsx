@@ -65,8 +65,14 @@ function App() {
             }
           />
           <Route path="sign-up" element={<SignUp redirect="/sign-in" />} />
-          <Route path="sign-in" element={<SignIn redirect="/" />} />
-          <Route path="log-out" element={<LogOut redirect="/" />} />
+          <Route
+            path="sign-in"
+            element={<SignIn redirect="/Business-Card-App" />}
+          />
+          <Route
+            path="log-out"
+            element={<LogOut redirect="/Business-Card-App" />}
+          />
           <Route
             path="sign-up-biz"
             element={<SignUpBiz redirect="/create-card" />}
