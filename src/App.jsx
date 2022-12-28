@@ -30,7 +30,7 @@ function App() {
 
       <main className="flex-fill container">
         <Routes>
-          <Route path="Business-Card-App/" element={<Home />} />
+          <Route path="/Business-Card-App" element={<Home />} />
           <Route path="about" element={<About />} />
           <Route
             path="my-cards"
